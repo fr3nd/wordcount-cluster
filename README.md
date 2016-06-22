@@ -16,9 +16,9 @@ The current solution has been tested on Ubuntu 15.10, using Docker 1.11.2, Docke
 
 ## Solution
 
-To solve this problem I've prioritized simplicity over a fully featured solution. One of reasons why I adopted this approach is the lack of a good Internet connection on my current location. 
+To solve this problem I've prioritized simplicity over a fully featured solution. One of the reasons why I have adopted this approach is the lack of a good Internet connection on my current location. 
 
-I've decided to use [Docker Swarm](https://www.docker.com/products/docker-swarm) as a clustering solution because of its simplicity, the integration with Docker and easy of use. The initial problem didn't require other more complex solutions with more features.
+I've decided to use [Docker Swarm](https://www.docker.com/products/docker-swarm) as a clustering solution because of its simplicity, the integration with Docker and easiness of use. The initial problem didn't require other more complex solutions with more features.
 
 The *map-reduce* wordcount program has been written in python and it has its own github repository and Docker Hub automated build:
 
