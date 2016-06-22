@@ -6,6 +6,8 @@
 # Distributed under terms of the MIT license.
 #
 
+set -e
+
 . ./config
 
 which docker-machine > /dev/null || (echo "docker-machine is needed to continue. Please install it..."; exit 1)
