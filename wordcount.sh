@@ -16,7 +16,6 @@ split -l $SPLIT_LINES - $TEMPDIR/wordcount-
 find $TEMPDIR -type f \
   | xargs -I {} --max-procs=$MAX_MAP_PROCS -n 1 sh -c "cat {} | docker run --rm -i fr3nd/wordcount map.py" \
   | sort \
-  | tee aaa \
   | docker run --rm -i fr3nd/wordcount reduce.py \
   | sort -n -k2 -r
 rm -rf $TEMPDIR
