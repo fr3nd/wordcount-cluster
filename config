@@ -1,0 +1,8 @@
+# Number of workers in the cluster
+WORKERS=2
+# Number of map processes in the cluster
+MAX_MAP_PROCS=4
+# get the token with docker run --rm swarm create
+SWARM_TOKEN=2f4ba1c163c0907679f037cd2d85e49e
+DOCKER_MACHINE_DRIVER=virtualbox
+SPLIT_LINES=20000
